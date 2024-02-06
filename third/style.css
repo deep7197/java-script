@@ -1,0 +1,59 @@
+.form-contaner {
+    width: 30%;
+    margin: auto;
+    text-align: center;
+    background-color: #a8a8ff;
+    padding: 2rem 2.5rem 2rem 2rem;
+}
+
+form label{
+    display: block;
+    text-align: left;
+    margin: 1rem 0;
+    font-size: 1.2rem;
+}
+form input {
+    width: 79%;
+    padding: 1rem 0.5rem;
+}
+
+form textarea {
+    width: 100%;
+    padding: 1rem 0.5rem;
+}
+
+.color-char {
+    color: #ff4848;
+}
+
+.btn {
+    margin: 1rem 0;
+}
+
+.btn button {
+    width: 30%;
+    padding: 1rem;
+}
+
+
+input.warning {
+    background-color: rgb(248, 191, 145);
+  }
+  
+  #remaining-char.warning {
+    color:rgb(211, 109, 26);
+  }
+
+
+  input.error {
+    background-color: #ff0a0a;
+  }
+  
+  #remaining-char.error {
+    color: #ff0a0a;
+  }
+  
+  .textC {
+    font-weight: 600;
+    color: rgb(241, 60, 60);
+  }

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+</head>
+
+<body>
+    <main>
+        <div class="form-contaner">
+            <form action="" id="form-submit">
+                <h1>Contact Us</h1>
+                <div>
+                    <label for="full-name">Full Name</label>
+                    <input type="text" id="full-name" placeholder="Full Name" maxlength="20">
+                    <span><span id="remaning-1">20</span>/20</span>
+                    <div id="fullnameT" class="color-char"></div>
+                </div>
+                <div>
+                    <label for="mobile">Mobile</label>
+                    <input type="text" id="mobile" placeholder="Mobile" maxlength="10">
+                    <span><span id="remaning-2">10</span>/10</span>
+                    <div id="mobileT" class="color-char"></div>
+                </div>
+                <div>
+                    <label for="email">Email</label>
+                    <input type="text" id="email" placeholder="Email" maxlength="30">
+                    <span><span id="remaning-3">30</span>/30</span>
+                    <div id="emailT" class="color-char" ></div>
+                </div>
+                <div>
+                    <label for="messege">Messege</label>
+                    <textarea type="text" id="messege" cols="30" rows="10" placeholder="Enter your Messege" maxlength="120"></textarea><span class="charset"><div><span id="remaning-4">120</span>/120</span> </div>
+                    <div id="messegeT" class="color-char"></div>
+                </div>
+                <div class="btn">
+                    <button type="submit">Submit</button>
+                    <button type="reset">Clear</button>
+                </div>
+            </form>
+        </div>
+    </main>
+</body>
+
+</html>
