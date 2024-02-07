@@ -15,12 +15,8 @@
 // 4) Change the functions from (2) such that:
 //    - The first button removes the third paragraph (i.e. the <p> prior to it)
 //    - The second button changes the background color of the first paragraph to blue
-
-
 // 5) Solve (4) both by changing the "inline styles" as well as by adding CSS classes
 //    Note: You'll have to add those classes to the styles.css file first!
-
-
 let btn1 = document.querySelector("#btn1")
 console.dir(btn1)
 let removeP = document.getElementById('psg3')
