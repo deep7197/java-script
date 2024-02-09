@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: bisque;
+    position: sticky;
+    padding: 2rem;
+}
+
+.header-contaner {
+    display: flex;
+    justify-content: space-between;
+    background-color: bisque;
+    width: 80%;
+    margin: auto;
+}
+
+.left-link{
+    font-size: 3rem;
+    text-decoration: none;
+    color: chocolate;
+}
+
+.right-link{
+    font-size: 2rem;
+    text-decoration: none;
+    color: chocolate;
+}
