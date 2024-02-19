@@ -1,18 +1,47 @@
-a {
-    text-decoration: none;
-    padding: 1rem;
-    margin: 2rem;
-}
-.project {
-    display: flex;
-    flex-direction: row;
+* {
+    margin: 0;
+    padding: 0;
+    text-transform: capitalize;
 }
 
-.project h3 {
+main {
+    background: linear-gradient(#00000079,#02020a81),url(mike-bird-136872.jpg);
+    height: 100vh;
+    background-position: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    gap: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+}
+.first a {
+    text-decoration: none;
+    font-size: 2rem;
+    color: white;
+}
+
+.second {
+    background-color: #87cfeb73;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+.second:hover {
+    box-shadow: 0 0 0.4rem skyblue;
+}
+
+.second h3 {
     font-size: 2rem;
 }
-.project a {
-    background-color: rgb(138, 91, 138);
-    color: black;
-    border-radius: 6rem;
+.second a {
+    display: block;
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.tab a {
+    text-decoration: none;
+    font-size: 2rem;
+    color: white;
 }

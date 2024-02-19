@@ -4,13 +4,13 @@ for (var i = 0; i < tabButtons.length; i++) {
         var tabName = this.dataset.tab;
         var tabContent = document.getElementById(tabName);
         var allTabContent = document.querySelectorAll('.tabcontent')
-        var allButtons = document.querySelectorAll('.tablinks')
+        
 
         for (var j = 0;
             j < allTabContent.length;
             j++) {
             allTabContent[j].style.display = 'none';
-            allButtons[j].classList.remove('active')
+            tabButtons[j].classList.remove('active')
         }
         
         tabContent.style.display = "block";

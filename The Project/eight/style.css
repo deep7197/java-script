@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-transform: capitalize;
+    box-sizing: border-box;
+}
+
+.menu {
+    width: 70%;
+    margin: 4rem auto 0 auto;
+    background-color: bisque;
+    padding: 4rem;
+    border-radius: 1rem;
+}
+
+
+.title {
+    text-align: center;
+    padding: 1rem 0;
+    font-size: 2rem;
+}
+
+.underline {
+    width: 6rem;
+    height: 0.2rem;
+    background-color: skyblue;
+    margin: 1rem auto 0 auto;
+}
+
+.btn-container {
+    text-align: center;
+    padding: 0.5rem 0;
+}
+
+.filter-btn {
+    border: 1px solid #f89d15;
+    background-color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+}
+
+.filter-btn:hover {
+    background-color: #f89d15 ;
+}
+
+.section-center {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 1rem;
+    box-sizing: border-box;
+    gap: 1rem;
+}
+
+.photo {
+    width: 32%;
+    border-radius: 1rem;
+    object-fit: cover;
+    aspect-ratio: 1/1;
+    border: 0.2rem solid #f89d15;
+    
+}
+
+.menu-item {
+    flex-basis: 40%;
+    padding: 0.4rem;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem auto;
+    overflow: hidden;
+}
+
+.menu-item:hover {
+    box-shadow: 0 0 10px #888484;
+}
+
+.item-info {
+    margin-left: 1rem;
+}
+
+.item-info header {
+    width: 100%;
+    display: flex;
+    margin-bottom: 1rem;
+    text-wrap: wrap;
+    text-align: right;
+    border-bottom: 0.1rem solid #f89d15;
+}
+
+.item-name {
+    flex-basis: 90%;
+    text-align: left;
+}
+
+.price {
+    flex-basis: 10%;
+    text-align: right;
+}
