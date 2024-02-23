@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 0.4fr 1fr;
+    justify-content: space-between;
+}
+
+.side-menu {
+    flex-basis: 20%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.4rem;
+    padding: 1rem;
+    height: 10rem;
+}
+
+.create-section {
+    flex-basis: 80%;
+}
+
+.create-section a {
+    padding: 0.5rem;
+    background-color: #5151e2;
+    display: inline-block;
+    margin: 1rem;
+    border-radius: 0.2rem;
+    text-decoration: none;
+}
+

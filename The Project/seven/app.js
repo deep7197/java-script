@@ -1,4 +1,4 @@
-var qus = document.querySelectorAll('.question-btn');
+var qus = document.querySelectorAll ('.question-btn');
 
 qus.forEach (function(btn){
     btn.addEventListener("click",function(e) {

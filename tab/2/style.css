@@ -1,0 +1,21 @@
+body {
+    background-color: #f8f8f8;
+}
+
+.tabcontent {
+    width: 50%;
+    background-color: white;
+    display: none;
+}
+
+.tab-btn {
+    background-color: blue;
+}
+
+.tab-btn.active {
+    background-color: white;
+}
+
+.tabcontent.active {
+    display: block;
+}
